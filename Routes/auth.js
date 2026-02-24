@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+const User = require('../Models/User');
 const router = express.Router();
 
 // router.post('/send-otp', async (req, res) => {
